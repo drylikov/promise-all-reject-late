@@ -1,0 +1,23 @@
+{
+  "name": "promise-all-reject-late",
+  "version": "1.0.1",
+  "description": "Like Promise.all, but save rejections until all promises are resolved",
+  "author": "Isaac Z. Schlueter <i@izs.me> (https://izs.me)",
+  "license": "ISC",
+  "scripts": {
+    "test": "tap",
+    "preversion": "npm test",
+    "postversion": "npm publish",
+    "prepublishOnly": "git push origin --follow-tags"
+  },
+  "tap": {
+    "check-coverage": true
+  },
+  "devDependencies": {
+    "tap": "^15.1.6"
+  },
+  "funding": {
+    "url": "https://github.com/sponsors/isaacs"
+  },
+  "repository": "https://github.com/isaacs/promise-all-reject-late"
+}
